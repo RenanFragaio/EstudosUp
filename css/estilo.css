@@ -1,0 +1,486 @@
+.logo{
+margin-top:2px;
+width:200px;
+height:45px;
+}
+.link{
+font-size:16px;
+color:dimgray;
+}
+.link:hover,
+.link:focus{
+color:dimgray;
+}
+.info{
+height:100px;
+}
+.tabela{
+background-color:#FFF;
+border: 3px solid #000;
+}
+.bg-black{
+background-color:black;
+}
+.mini{
+width:30px;
+height:30px;
+}
+.mini2{
+width:50px;
+height:50px;
+}
+.icone{
+width:15px;
+width:15px;	
+}
+.img-icone{
+width:80px;
+height:80px;
+}
+.titulo{
+font-size:17px;
+color:#000;
+font-weight:bold;
+}
+.titulo-link{
+font-size:17px;
+color:#000;
+font-weight:bold;
+}
+.grupo:hover .titulo-link,
+.grupo:focus .titulo-link{
+color:dimgray;
+}
+.pag.pagination > li{
+display:inline-block;
+margin:0px;
+padding:0px;
+}
+.mg{
+margin-left:5px !important;
+}
+.rd > a{
+border-radius:4px;
+}
+.pagination > li.pg > a{
+background-color:#337ab7;
+color:#FFF;
+}
+.pagination > li.pg > a:hover,
+.pagination > li.pg > a:focus{
+background-color: #286090;
+color:#FFF;
+}
+.pagination > li.atv > a{
+background-color:#5cb85c;
+color:#FFF;
+font-weight:bold;
+}
+.sem-borda{
+border:0px !important;
+}
+.borda{
+border:1px solid #ccc;
+border-radius:4px;
+}
+.b-header{
+border-bottom:4px solid dimgray;
+}
+.margem-lr{
+margin-right:20px;
+margin-left:20px;
+}
+.f-botao{
+width:100%;
+}
+.col-centered{
+float: none;
+margin: 0 auto;
+}
+.c-pesquisa{
+padding-right:0px;
+margin-left:0px;
+margin-right:5px;
+max-width:500px;
+}
+@font-face{
+font-family: 'Fontrue';
+src: url('fontrue.ttf') format('truetype');
+}
+.fonte{
+font-family:Fontrue;
+}
+pre{
+border: 0px;
+background-color:#FFF;
+font-family:Arial;
+font-size:17px;
+white-space:pre-wrap;
+word-break:normal;
+overflow-x:hidden; 
+/*com o texto em pre-wrap(pulando linhas sempre que necessário) o overflow-x:hidden apenas conserta um bug onde
+uma barra de rolagem horizontal aparece na legenda, quando o texto dela é centralizado.*/
+}
+.fixo{
+background-attachment:fixed;
+}
+.navbar{
+margin-bottom:0;
+border-radius:0 !important;
+}
+.navbar-default .navbar-toggle .c-azul{
+background-color:#337ab7;
+height:4px;
+}
+.bg-branco{
+	background-color:#FFF;
+}
+.bg-cinza{
+background-color:whitesmoke;
+}
+.bg-link{
+background-color:whitesmoke;
+}
+.bg-link:hover,
+.bg-link:focus{
+background-color:gainsboro;
+}
+.img-login{
+margin-top:-5px;
+width:30px;
+height: 30px;
+border-radius: 100%;
+float: left;
+box-shadow: 0px 0px 2px #fff;
+}
+.img-link{
+height:200px;
+overflow:hidden;
+max-width:100%;
+}
+.img-link img{
+height:100%;
+width:100%;
+}
+.img-link{
+border: 1px solid lightgray;
+border-radius:8px;
+}
+.titulo-artigo{
+font-size:28px;
+font-weight:bold;
+}
+.img-artigo{
+width:400px;
+height:300px;
+border: 1px solid whitesmoke;
+
+}
+.legenda{
+font-size:14px;
+}
+
+.visualizacoes{
+font-size:11px;
+color:#999999;
+}
+.icone-adm{
+min-width:205px;
+max-width:200px;
+}
+.icone-adm.azul{
+background-color: #337ab7;
+border-color: #2e6da4;
+}
+.icone-adm.verde{
+background-color: #5cb85c;
+border-color: #4cae4c;
+}
+.icone-adm.azul:hover,
+.icone-adm.azul:focus{
+background-color: #286090;
+border-color: #204d74;
+}
+.icone-adm.verde:hover,
+.icone-adm.verde:focus{
+background-color: #449d44;
+border-color: #255625;
+}
+.sem-linha:hover{
+text-decoration:none;
+}
+.link-adm{
+background-color:inherit;
+border-color:inherit;
+color:#fff;
+font-size:18px;
+}
+.list-group-item.link-lista:hover,
+.list-group-item.link-lista:focus{
+background-color:azure;
+color:#286090;
+text-decoration:none;
+}
+.rodape{
+background-color:#202020;
+text-align:center;
+}
+html,body{
+height:100%;
+}
+#holder{
+min-height:100%;
+position:relative;
+}
+#body{
+padding-bottom:100px;
+}
+footer{
+height: auto; 
+width:100%;
+position: absolute;
+left: 0;
+bottom: 0; 
+}
+.linha{
+border-bottom:1px solid silver;
+}
+.sem-margem{
+margin:0;
+}
+.td-sem-pad{
+padding:0px !important;
+}
+.pad{
+padding-top:5px;
+padding-bottom:5px;
+}
+.aq{
+width:70%;
+height:70%;
+}
+.pad-top{
+padding-top:10px;
+}
+.pad-bottom{
+padding-bottom:20px;
+}
+.pad-left{
+padding-left:20px;
+}
+.pad-right{
+padding-right:20px;
+}
+.mg-bottom{
+margin-bottom:15px;
+}
+.celular1{
+display:none;
+}
+.celular2{
+display:inline;
+}
+/*design da navbar para tablets-celulares(breakpoint)*/
+@media (max-width: 895px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+	/*fim da mudança de brakpoint*/
+	.logo{
+	margin-top:5px;
+	}
+	.pesquisa{
+	display:none !important;
+	}
+	.pesquisa-m{
+	display:inline !important;
+	}
+}
+@media screen and (min-width:896px){
+.navbar .navbar-nav > li > a:hover,
+	.navbar .navbar-nav > li > a:focus{
+	border-bottom: 3px solid #003466;
+	color:black;
+	}
+	.dropdown-menu > li > a:hover,
+	.dropdown-menu > li > a:focus {
+	background-color:#b4cefe;
+	border-bottom: 2px solid #003466;
+	border-top: 2px solid #003466;
+	}
+	.pesquisa{
+	display:inline !important;
+	}
+	.pesquisa-m{
+	display:none !important;
+	}
+}
+/*inicio do design para desktop-tablet(acima de 860px em vez de 768px)*/
+@media screen and (min-width:860px){
+	.mini{
+	width:50px;
+	height:50px;
+	}
+	.tabela{	
+	background-color:#FFF;
+	border: 3px solid #000;
+	}    
+	.img-artigo{
+	width:400px;
+	height:300px;
+	border: 1px solid whitesmoke;
+	
+	}
+	.img-icone{
+	width:60px;
+	height:60px;
+	}
+	.img-link{
+	height:100px;
+	overflow:hidden;
+	}
+	.pad-lg{
+	padding-bottom:5px;
+	padding-top:5px;
+	}
+	.pad-left{
+	padding-left:30px;
+	}
+	.pad-right{
+	padding-right:30px;
+	}
+	.aq{
+	width:auto;
+	height:auto;
+	}
+
+}
+/*fim do design para desktop*/
+
+@media screen and (min-width:768px) and (max-width:991px){
+	.img-link{
+	height:200px;
+	overflow:hidden;
+	max-width:300px;
+	}
+	.img-link.img-sm{
+	height:100px;
+	overflow:hidden;
+	max-width:300px;
+	}
+	.c-pesquisa .form-control{
+	min-width:500px !important;
+	}
+}
+@media screen and (min-width:550px) and (max-width:767px){
+	.img-link{
+	height:150px;
+	overflow:hidden;
+	max-width:220px;
+	}
+	.img-link.img-home{
+	height:140px;
+	overflow:hidden;
+	}
+	.celular1{
+	display:inline;
+	}
+	.celular2{
+	display:none;
+	}
+	.grupo{
+	margin-bottom:30px;
+	}
+}
+@media screen and (max-width:549px){
+.lista.list-group-item{
+border:0px;
+padding:0px;
+margin:0px;
+margin-bottom:30px;
+}
+.bg-link{
+background-color:#FFF;
+}
+.bg-link:hover,
+.bg-link:focus{
+background-color:#FFF;
+}
+.titulo-artigo{
+font-size:22px;
+font-weight:bold;
+}
+}
+@media screen and (min-width:480px) and (max-width:549px){
+	.img-link{
+	height:250px;
+	overflow:hidden;
+	}
+	.img-link img{
+	height:100%;
+	width:100%;
+	}
+}
+@media screen and (min-width:400px) and (max-width:549px){
+.titulo-link{
+font-size:20px;
+}
+.grupo{
+margin-bottom:25px;
+}
+.img-artigo{
+	width:300px;
+	height:200px;
+	border: 1px solid whitesmoke;
+	
+	}
+}
+@media screen and (max-width:399px){
+.titulo-link{
+font-size:19px;
+}
+.img-link{
+height:170px;
+overflow:hidden;
+}
+.grupo{
+margin-bottom:50px;
+}
+.img-artigo{
+	width:250px;
+	height:160px;
+	border: 1px solid whitesmoke;
+	
+	}
+}
