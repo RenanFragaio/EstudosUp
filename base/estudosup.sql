@@ -1,11 +1,11 @@
-drop database if exists estudosup;
+drop database if exists id8729701_estudosup;
 
-create database estudosup
+create database id8729701_estudosup
 
 default character set utf8
 default collate utf8_general_ci;
 
-use estudosup;
+use id8729701_estudosup;
 
 create table usuario
 (
