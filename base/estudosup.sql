@@ -47,7 +47,7 @@ on delete restrict
 );
 
 insert into usuario(nome,email,senha,nivel,foto)
-values ("Administrador","admin@exemplo.com","admin123","adm","../usuario/foto/semfoto.jpg");
+values ("Administrador","admin@exemplo.com","a!d@m#i$n","adm","../usuario/foto/semfoto.jpg");
 
 insert into usuario(nome,email,senha,nivel,foto)
 values ("Renan dos Santos Fragaio","renanfragaio@hotmail.com","123456","adm","../usuario/foto/semfoto.jpg");
