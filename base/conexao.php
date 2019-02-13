@@ -5,10 +5,15 @@
     $senha = "123456";
     $banco = "u267040773_oscar";*/
 	
-	$local = "localhost";
+	/*$local = "localhost";
 	$usuario = "root";
 	$senha = "";
-	$banco = "estudosup";
+	$banco = "estudosup";*/
+	
+	$local = "localhost";
+	$usuario = "id6802051_renan_fragaio";
+	$senha = "estudosup@#";
+	$banco = "id6802051_estudosup";
 
     $conexao = mysqli_connect($local,$usuario,$senha,$banco);
 
